@@ -1,0 +1,53 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+main{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    gap: 20px;
+}
+div{
+    border: 1px solid black;
+}
+#one{
+    grid-column: 1/13;
+    height: 10vh;
+}
+#two{
+    grid-column: 1 / 4;
+    height: 30vh;
+}
+#three{
+    grid-column: 4 / 7;
+}
+#four{
+    grid-column: 7 / 10;
+}
+#five{
+    grid-column: 10 / 13;
+}
+#six{
+    grid-column: 1 / 4;
+}
+#seven{
+    grid-column: 4 / 7;
+}
+#eight{
+    grid-column: 7 / 10;
+}
+#nine{
+    grid-column: 10 / 13;
+}
+#ten{
+    grid-column: 1 / 7;
+    height: 50vh;
+}
+#eleven{
+    grid-column: 7 / 13;
+}
+#twelve{
+    grid-column: 1 / 13;
+    height: 10vh;
+}
